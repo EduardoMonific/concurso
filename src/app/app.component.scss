@@ -1,0 +1,67 @@
+.nav {
+    background-color: #136176;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+
+.navbar-light:hover .navbar-nav:hover .nav-link:hover{
+    color: gray;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.btn {
+    border          : solid #ff7a00;
+    border-radius   : 15px;
+    background-color: #ff7a00;
+    width           : 85%;
+    height          : 45px;
+    text-align      : center;
+    line-height     : 0px;
+    color           : white;
+}
+.btn:hover{
+    background-color: #136176;
+    border          : solid #136176;
+    color: #ff7a00;
+}
+
+
+
+
+.img {
+    height: 30px;
+    width : auto;
+}
+
+.bck-image {
+    background-image: url(../assets/inicio.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.moni{
+    width: auto;
+    height: 60px;
+}
+
+.inmo{
+    width: auto;
+    height: 50px;
+    margin-top: 54px;
+}
+
+.line{
+    border: 2px solid #ff7a00;
+    opacity: 1;
+    width: 40%;
+}
